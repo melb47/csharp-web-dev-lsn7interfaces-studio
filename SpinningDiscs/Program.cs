@@ -6,9 +6,13 @@ namespace SpinningDiscs
     {
         static void Main(string[] args)
         {
-            // TODO: Declare and initialize a CD and a DVD object.
-
-            // TODO: Call each CD and DVD method to verify that they work as expected.
+            CD blah = new CD("Blah");
+            DVD meh = new DVD("Meh");
+           // blah.DiscSpin();
+            meh.ReadDisc();
+            meh.WriteDisc("Movie");
+            meh.PowerLaserOn();
+            meh.ReadDisc();
         }
     }
 }
